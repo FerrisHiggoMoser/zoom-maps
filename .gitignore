@@ -1,0 +1,5 @@
+build/
+lib/
+test/server/
+test/harness/classes/
+test/harness/*.jar

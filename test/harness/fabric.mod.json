@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "zoommaps-test",
+  "version": "0",
+  "environment": "server",
+  "entrypoints": { "main": ["zoomtest.Harness"] },
+  "depends": { "zoommaps": "*", "fabric-api": "*" }
+}

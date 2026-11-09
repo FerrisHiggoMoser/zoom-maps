@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "zoommaps",
+  "version": "1.0.0",
+  "name": "Zoomed Maps",
+  "description": "Server-side zoomed-in maps. Open an empty map with a spyglass in your other hand for a 64x64 block map, or sneak as well for 32x32. Paper in a cartography table zooms back out. Works with unmodded clients.",
+  "authors": [
+    "FerrisHiggoMoser"
+  ],
+  "contact": {
+    "sources": "https://github.com/FerrisHiggoMoser/zoom-maps",
+    "issues": "https://github.com/FerrisHiggoMoser/zoom-maps/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "zoommaps.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "zoommaps.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "EmptyMapItemMixin",
+    "MapItemMixin",
+    "MapItemSavedDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
